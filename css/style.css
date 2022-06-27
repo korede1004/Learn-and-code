@@ -1,0 +1,106 @@
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-width: 325px; 
+    max-width: 1440px;
+    background-color: hsl(0, 100%, 74%) ;
+    margin: 200px 100px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    background-image: url(../images/bg-intro-desktop.png);
+    background-size: cover;
+    color:#fff;  
+}
+
+.main-container{
+    display:flex;
+    flex-wrap:nowrap;
+    align-items: center;
+    height: 500px;
+    width: 500px;
+
+}
+
+@media screen and (max-width:375px) {
+    
+    .main-container{
+        /* background-color: aqua; */
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+}
+
+.left-container{
+    margin-left: 100px;
+
+}
+
+.title{
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 43px;
+    width: 400px;
+    padding-bottom: 25px;
+}
+
+.text{
+    width: 470px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.days{
+    color: aliceblue;
+   
+}
+
+.right-container{
+padding: 30px;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 20px;
+    width: 420px;
+    box-shadow: -2px 3px 5px rgb(173, 173, 173);
+}
+
+.form-container input{
+    border: 1px solid hsl(246, 25%, 77%) ;
+    /* color: hsl(246, 25%, 77%); */
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.form-container p{
+    color:hsl(246, 25%, 77%) ;
+    font-size: 10px;
+    text-align: center;
+}
+
+button{
+    background-color:hsl(248, 32%, 49%);
+    color: hsl(246, 25%, 77%);
+    width: 420px;
+    padding:20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow:1px 4px #99b3b1;
+}
+
+#claim{
+    background-color:hsl(154, 59%, 51%) ;
+    color:#fff;
+}
+
+#clicking{    color:hsl(0, 100%, 74%) ;
+}
